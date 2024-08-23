@@ -1,14 +1,12 @@
 package kr.or.ddit.vo;
 
 public class LprodVO {
-    private int lprod_id;
-    private int lprod_gu;
+    private Integer lprod_id;
+    private String lprod_gu;
     private String lprod_nm;
 
-    public LprodVO(int lprod_id, int lprod_gu, String lprod_nm) {
-        this.lprod_id = lprod_id;
-        this.lprod_gu = lprod_gu;
-        this.lprod_nm = lprod_nm;
+    public LprodVO() {
+
     }
 
     public int getLprod_id() {
@@ -19,11 +17,11 @@ public class LprodVO {
         this.lprod_id = lprod_id;
     }
 
-    public int getLprod_gu() {
+    public String getLprod_gu() {
         return lprod_gu;
     }
 
-    public void setLprod_gu(int lprod_gu) {
+    public void setLprod_gu(String lprod_gu) {
         this.lprod_gu = lprod_gu;
     }
 

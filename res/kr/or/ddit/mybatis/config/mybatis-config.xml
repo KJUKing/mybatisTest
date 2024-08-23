@@ -46,6 +46,11 @@
         </mappers>
      -->
 
+    <mappers>
+        <mapper resource="kr/or/ddit/mybatis/mappers/lprod-mapper.xml"/>
+        <mapper resource="kr/or/ddit/mybatis/mappers/jdbc-mapper.xml"/>
+    </mappers>
+
 
 
 </configuration>
